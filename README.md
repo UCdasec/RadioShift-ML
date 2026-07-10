@@ -1,4 +1,4 @@
-## FINN Setup (run once)
+## 1. FINN Setup (run once)
 ```bash
 cd finn && bash ./run-docker.sh
 ```
@@ -6,7 +6,7 @@ After docker session is finished, exit to the main directory or simply create a 
 
 To troubleshoot any dependencies caching issue, first try deleting the directory `finn/deps`, and run step 1 again.
 
-## Session Setup
+## 2. Session Setup
 ```bash
 pixi shell
 ```
@@ -16,18 +16,18 @@ Once you are inside the pixi environment, modify the `FINN_XILINX_PATH` variable
 source env_example.sh
 ```
 
-## Dataset 
+## 3. Dataset 
 Firstly, create a directory called `dataset` to contain any relevant h5 dataset.
 
 Internally, the pipeline have a few assumptions about the dataset that need to be checked:
 
 1. The dataset is formatted as h5 format
-2. There must be at least 2 categories (with each categories must have the same length):
-    - `IQ`  : hold an array of frames with shape (frame_count,1024,2). Each index is an I/Q frame with 1024 samples with 2 values for I and Q
-    - `Mod` : hold an 1D array of respective modulation label in parallel with IQ array 
+2. There must be at least 2 categories (with each categories must have the same length = `frame_count`):
+    - `IQ`  : hold an array of frames with shape (`frame_count`,1024,2). Each index is an I/Q frame with 1024 samples with 2 values for I and Q
+    - `Mod` : hold a 1D array of respective modulation label in parallel with IQ array 
     - `SNR` (OPTIONAL) : hold a 1D array of respective SNR label in parallel with IQ array  
-3. The dataset must be in INT8. Otherwise create a script to convert that dataset to INT8 beforehand
-4. The frame indices must be sorted into equal chunks. Every (modulation + SNR) combination must be equal and stacked next to each other. Preferably, sort modulation first and SNR second. The number of frames per each (modulation + SNR) combination is called `chunk_length` 
+3. The dataset IQ values must be in INT8. Otherwise create a script to convert that dataset to INT8 beforehand
+4. The frame indices must be sorted into equal chunks. Every (modulation + SNR) combination must be equal and stacked next to each other. Preferably, sort modulation first and SNR second. The number of frames per each (modulation + SNR) combination is called `chunk_length`.
 ```python
 # For example 
 # dataset has 15 modulations, 16 SNRs
