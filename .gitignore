@@ -1,0 +1,7 @@
+runs/
+**/__pycache__/
+dataset/**
+.vscode
+
+src/finn_custom_build/tmp
+src/finn_custom_build/output

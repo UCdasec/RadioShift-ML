@@ -1,0 +1,3 @@
+defaults = { w = 4, a = 4, b = 4 }
+
+# No per-module overrides; every Conv/Linear layer will be quantized to INT8.
