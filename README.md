@@ -1,4 +1,5 @@
-# RadioShift-ML
+# RadioShift-ML: Train and Test Neural Networks on FPGAs for Modulation Classification 
+
 This repository shows an example pipeline for:
 - Training quantized NN using Pytorch and Brevitas
 - Using FINN to generate the hardware implementation of that NN
