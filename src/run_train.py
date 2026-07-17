@@ -21,32 +21,10 @@ def write_json(json_file:str,data:dict):
     with open(json_file,'w') as f:
         json.dump(data,f, ensure_ascii=False, indent=4)
 
-def main():
-    num_epochs = 1
-
-    build_dir = "runs/test_run_ray_ppm20"
-    os.makedirs(build_dir, exist_ok=True)
-
-    # ── Dataset ──────────────────────────────────────────────────────────────
-    dataset = radio_dataset(
-        "dataset/MatGenData_ppm20_rayleigh_int8_20260204.h5",
-        iq_key="all_IQ_8bit",
-        mod_key="all_labels",
-        snr_key="all_SNRs",
-        chunk_length=4096,
-    )
-
-    # dataset = radio_dataset( 
-    #     "dataset/RF_Capture_65536fpm_05292026_int8.h5",
-    #     iq_key="all_IQ_8bit",
-    #     mod_key="all_labels",
-    #     snr_key=None,
-    #     chunk_length=65536,
-    # )
-
+def full_run(num_epochs:int,build_dir:str,dataset:radio_dataset):
     num_classes = len(np.unique(dataset.all_mod))
     write_json(f"{build_dir}/test_indices.json",{"test_indices":dataset.test_indices})
-    # ────────────────────────────────────────────────────────────────────────────
+
     float_models={
         "32bit":VGG10(output_size=num_classes)
     }
@@ -73,6 +51,8 @@ def main():
         # print_model_tree(model)
         train_model_on_dataset(model=model, dataset=dataset,
                                build_dir=model_dir, num_epochs=num_epochs)
+        best_chkpnt=f"{model_dir}/model.pth"
+        print(f"model best chkpnt saved in {best_chkpnt}")
 
     # ─Quant models───────────────────────────────────────────────────────────────
     #Quant models can go through FINN and FPGA, assume input is INT8
@@ -86,10 +66,42 @@ def main():
                                build_dir=model_dir, num_epochs=num_epochs)
         
         #ensure we load back the best checkpoint rather the most recent epoch
-        load_model_pth(model,f"{model_dir}/model.pth")
+        best_chkpnt=f"{model_dir}/model.pth"
+        load_model_pth(model,best_chkpnt)
+        print(f"model best chkpnt saved in {best_chkpnt}")
 
         brevitas_qonnx_pth=f"{model_dir}/model.onnx"
         export_to_onnx(model=model,export_path=brevitas_qonnx_pth, args_inp=torch.randn(1,2,1024).to('cuda'))
+        print(f"qonnx saved in {brevitas_qonnx_pth}")
 
+def main():  
+    # PARAMETERS
+    num_epochs = 10
+    build_dir = "runs/train_on_ray_ppm20"
+    os.makedirs(build_dir, exist_ok=True)
+
+    dataset = radio_dataset(
+        dataset_path="dataset/MatGenData_ppm20_rayleigh_int8_20260204.h5",
+        iq_key="all_IQ_8bit",
+        mod_key="all_labels",
+        snr_key="all_SNRs",
+        chunk_length=4096,
+    )
+
+    # dataset = radio_dataset( 
+    #     "dataset/RF_Capture_65536fpm_05292026_int8.h5",
+    #     iq_key="all_IQ_8bit",
+    #     mod_key="all_labels",
+    #     snr_key=None,
+    #     chunk_length=65536,
+    # )
+
+    # Do a full run, train a float32, int8, int4, int2
+    # All quantized integer based models also go through a qonnx generator
+    # The qonnx can be run through FINN and deployed on FPGA
+    full_run(num_epochs=num_epochs,
+                build_dir=build_dir,
+                dataset=dataset)
+        
 if __name__ == "__main__":
     main()

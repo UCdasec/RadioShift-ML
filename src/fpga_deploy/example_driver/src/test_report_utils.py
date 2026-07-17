@@ -67,7 +67,6 @@ def get_cm(test_result:testing_result, normalized:bool=True, filter_snr=None, fi
     yp=test_result.y_pred
     ysnr=test_result.y_snr
     #raw confusion mat
-    # print(test_result.use_snr)
     for i in range(len(ye)):
         if (test_result.use_snr) and (filter_snr is not None) and (ysnr[i] not in filter_snr):
             continue

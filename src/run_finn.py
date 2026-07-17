@@ -11,8 +11,7 @@ def load_json(json_file:str)->dict:
         return data
     return None
 
-def main():
-    build_dir = "runs/test_run_ray_ppm20"
+def run_finn(build_dir:str):
     dir_json = f"{build_dir}/model_dir_names.json"
 
     if not os.path.exists(dir_json):
@@ -46,6 +45,10 @@ def main():
 
         finn_build_dir=f"{model_dir}/finn_build_dir"
         run_finn_deploy(final_finn_pth,finn_build_dir)
+
+def main():
+    build_dir = "runs/train_on_ray_ppm20"
+    run_finn(build_dir=build_dir)
 
 if __name__ == "__main__":
     main()    
