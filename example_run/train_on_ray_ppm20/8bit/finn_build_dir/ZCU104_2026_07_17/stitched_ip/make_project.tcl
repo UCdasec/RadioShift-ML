@@ -1,0 +1,1291 @@
+create_project finn_vivado_stitch_proj /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_0fptrgvk -part xczu7ev-ffvc1156-2-e
+set_msg_config -id {[BD 41-1753]} -suppress
+set_property ip_repo_paths [list $::env(FINN_ROOT)/finn-rtllib/memstream /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_0_gz01l5g8 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_0_37k5js9d /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_1_0_z_x3jlcc /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_1_1_m49j4cpu /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_enfqcv5o /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_2_0_mjekgdx3 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_2_1_xs2fhma3 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_d2xjx3zn /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_0_j_xhl7fi /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_1_udkznjcn /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_2_vdkai68s /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_3_dz0muzsg /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_4upuzj4v /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_4_uky8ew58 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_0_7dncozoa /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_5_qybvch4v /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_0_r5h722ai /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_0_gm0298eb /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_1_o2yv6wrt /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_2_7ssbwp11 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_3_y86367he /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_4_gp26akcn /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_0_b8kmf_j8/project_StreamingMaxPool_hls_0/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_7_e9ppo6pz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_g5koo69j /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_8_7nzcr8fp /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_1_x6clf50w /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_9_j2sfb7yz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_v3nc56c2 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_10_mv6frts4 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_9pjyyphh /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_11_652t37td /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_4i44dlqx /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_12_pj90tkvc /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_1_yikc91qt /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_13_cyillthc /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_s3qaktjv /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_14_7x4gikay /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_1_8fws2rwi /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_15_s92qdqmc /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_1_809s2kji/project_StreamingMaxPool_hls_1/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_16_ftuxvdd8 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_u632b8g4 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_17_qelt49s5 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_2_gs_9ld05 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_18_i97dsqzz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_d5tt_yw_ /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_19_7qgwc8d3 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_tplzjllz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_20_egbtw_3x /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_os2d27rs /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_21_nacsk3xs /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_2_x5qawsfl /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_22__rftn79y /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_ztzg6q7t /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_23_fc99m162 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_2_ik17qaey /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_24_mo_2soll /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_2_7y7nfb63/project_StreamingMaxPool_hls_2/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_25_j4plh77q /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_qsjd1npz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_26_00b4u3o7 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_3_j0c3cjdd /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_27_bi_jwgzd /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_4wax60id /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_28_xrbqju53 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_kql9sqpc /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_29_xztk6_kl /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_mqsmhhdz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_30_mlo0s1lm /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_3_nny6yj5v /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_31_p8n1aql4 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_e1sn9w4m /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_32_93dh4ihs /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_3__z_bi_k1 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_33_aackb0sk /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_3__mrbv1v3/project_StreamingMaxPool_hls_3/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_34_ey8hjmci /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_i8mhl79k /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_35_8umlgqit /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_4_os68t176 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_36_i06zllck /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_fd3swn61 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_37_szpno77z /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_pbor3ea7 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_38_ug3ntkgi /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_ttny6xuf /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_39_bsbfjasb /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_4_t8c15v3y /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_40_oc3nga9_ /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_3b_hez21 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_41_f8iazt7i /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_4_tb15wgd7 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_42_m8o7d605 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_4_dmul73d4/project_StreamingMaxPool_hls_4/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_43_kyr8rqgz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_4xxxoy8o /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_44_15qvt7yk /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_5_0a8n0fk1 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_45_nn5xwqw9 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_19_11xryjp7 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_46_k1ufgbgm /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_8531culb /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_47_hfk2h7hy /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_20_ic4vpoyr /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_48_zia71peb /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_5_zx6vfm_x /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_49_fjliis_b /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_5_ylhlrpr1 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_50_qpdgwyw9 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_5_b86jo76d/project_StreamingMaxPool_hls_5/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_51_dd1c17o5 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_21_shu6d112 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_52_3jbdn9gw /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_6_pb_cnki6 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_53_usfh6dyz /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_22_4asvgxno /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_54_3srhdl_9 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_db73igaf /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_55_vc05z4n4 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_23_qvq55kje /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_56_v332ppco /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_6_11xsipv7 /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_57_frgc09e_ /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_6_p42bv8qr /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_58_vkyktfrk /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingMaxPool_hls_6_mwt9x_de/project_StreamingMaxPool_hls_6/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_59_lgs_s9ll /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_7_2vbtg0gd /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_60_6rr726qe /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_7_ld5f079y /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_61_2e4u4woh /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_8_bb573qta /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_62_7tla7c1i /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_8_1npy5ulp /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_63_qtbxz2xe /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_9_y51998df /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_64_i2a9hxx_ /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ChannelwiseOp_hls_0_5gdsizkv/project_ChannelwiseOp_hls_0/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_65_zl31898m /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_LabelSelect_hls_0_1khqhsy4/project_LabelSelect_hls_0/sol1/impl/ip /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_66_5gowt44u] [current_project]
+update_ip_catalog
+create_bd_design "finn_design"
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_0_gz01l5g8/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_0_gz01l5g8/StreamingFIFO_rtl_0.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_0 StreamingFIFO_rtl_0
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_0_37k5js9d/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_0_37k5js9d/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_0_37k5js9d/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_0_37k5js9d/FMPadding_rtl_0.v
+create_bd_cell -type module -reference FMPadding_rtl_0 FMPadding_rtl_0
+create_bd_cell -type hier StreamingFIFO_rtl_1_0
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_1_0/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_1_0/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_1_0/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_1_0/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_1_0/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {1024}] [get_bd_cells /StreamingFIFO_rtl_1_0/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_1_0/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {2}] [get_bd_cells /StreamingFIFO_rtl_1_0/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_1_0/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_1_0/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_1_0/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_1_0/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_1_0/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_1_0/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_1_0/ap_clk] [get_bd_pins StreamingFIFO_rtl_1_0/fifo/s_axis_aclk]
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_1_1_m49j4cpu/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_1_1_m49j4cpu/StreamingFIFO_rtl_1_1.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_1_1 StreamingFIFO_rtl_1_1
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_enfqcv5o/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_enfqcv5o/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_enfqcv5o/StreamingDataWidthConverter_rtl_0.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_0 StreamingDataWidthConverter_rtl_0
+create_bd_cell -type hier StreamingFIFO_rtl_2_0
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_2_0/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_2_0/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_2_0/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_2_0/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_2_0/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {2048}] [get_bd_cells /StreamingFIFO_rtl_2_0/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_2_0/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_2_0/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_2_0/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_2_0/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_2_0/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_2_0/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_2_0/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_2_0/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_2_0/ap_clk] [get_bd_pins StreamingFIFO_rtl_2_0/fifo/s_axis_aclk]
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_2_1_xs2fhma3/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_2_1_xs2fhma3/StreamingFIFO_rtl_2_1.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_2_1 StreamingFIFO_rtl_2_1
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_d2xjx3zn/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_d2xjx3zn/ConvolutionInputGenerator_rtl_0_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_d2xjx3zn/ConvolutionInputGenerator_rtl_0_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_d2xjx3zn/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_0 ConvolutionInputGenerator_rtl_0
+create_bd_cell -type hier StreamingFIFO_rtl_3_0
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_3_0/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_3_0/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_3_0/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_3_0/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_3_0/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {4096}] [get_bd_cells /StreamingFIFO_rtl_3_0/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_3_0/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_3_0/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_0/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_3_0/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_0/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_3_0/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_3_0/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_3_0/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_3_0/ap_clk] [get_bd_pins StreamingFIFO_rtl_3_0/fifo/s_axis_aclk]
+create_bd_cell -type hier StreamingFIFO_rtl_3_1
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_3_1/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_3_1/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_3_1/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_3_1/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_3_1/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {512}] [get_bd_cells /StreamingFIFO_rtl_3_1/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_3_1/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_3_1/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_1/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_3_1/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_1/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_3_1/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_3_1/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_3_1/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_3_1/ap_clk] [get_bd_pins StreamingFIFO_rtl_3_1/fifo/s_axis_aclk]
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_2_vdkai68s/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_2_vdkai68s/StreamingFIFO_rtl_3_2.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_3_2 StreamingFIFO_rtl_3_2
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_3_dz0muzsg/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_3_3_dz0muzsg/StreamingFIFO_rtl_3_3.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_3_3 StreamingFIFO_rtl_3_3
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_4upuzj4v/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_4upuzj4v/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_4upuzj4v/StreamingDataWidthConverter_rtl_1.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_1 StreamingDataWidthConverter_rtl_1
+create_bd_cell -type hier StreamingFIFO_rtl_4
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_4/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_4/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_4/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_4/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_4/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {1024}] [get_bd_cells /StreamingFIFO_rtl_4/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_4/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {6}] [get_bd_cells /StreamingFIFO_rtl_4/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_4/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_4/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_4/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_4/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_4/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_4/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_4/ap_clk] [get_bd_pins StreamingFIFO_rtl_4/fifo/s_axis_aclk]
+create_bd_cell -type hier MVAU_rtl_0
+create_bd_pin -dir I -type clk /MVAU_rtl_0/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_0/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_0/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_0/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_0_7dncozoa/MVAU_rtl_0_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_0 /MVAU_rtl_0/MVAU_rtl_0
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_0/MVAU_rtl_0_wstrm
+set_property -dict [list CONFIG.DEPTH {64} CONFIG.WIDTH {48} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_0_7dncozoa/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_0/MVAU_rtl_0_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_0/MVAU_rtl_0_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_0/MVAU_rtl_0/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_0/ap_rst_n] [get_bd_pins MVAU_rtl_0/MVAU_rtl_0_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_0/ap_clk] [get_bd_pins MVAU_rtl_0/MVAU_rtl_0_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_0/ap_rst_n] [get_bd_pins MVAU_rtl_0/MVAU_rtl_0/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_0/ap_clk] [get_bd_pins MVAU_rtl_0/MVAU_rtl_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_0/in0_V] [get_bd_intf_pins MVAU_rtl_0/MVAU_rtl_0/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_0/out_V] [get_bd_intf_pins MVAU_rtl_0/MVAU_rtl_0/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_5_qybvch4v/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_5_qybvch4v/StreamingFIFO_rtl_5.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_5 StreamingFIFO_rtl_5
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_0
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_0 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_0_r5h722ai/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_0 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_0_r5h722ai/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_0 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_0_r5h722ai/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_0 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_0_r5h722ai/Thresholding_rtl_0_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_0_axi_wrapper Thresholding_rtl_0
+create_bd_cell -type hier StreamingFIFO_rtl_6_0
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_6_0/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_6_0/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_0/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_0/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_6_0/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {32768}] [get_bd_cells /StreamingFIFO_rtl_6_0/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_6_0/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_6_0/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_0/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_0/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_0/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_0/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_0/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_0/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_0/ap_clk] [get_bd_pins StreamingFIFO_rtl_6_0/fifo/s_axis_aclk]
+create_bd_cell -type hier StreamingFIFO_rtl_6_1
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_6_1/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_6_1/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_1/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_1/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_6_1/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {8192}] [get_bd_cells /StreamingFIFO_rtl_6_1/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_6_1/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_6_1/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_1/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_1/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_1/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_1/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_1/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_1/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_1/ap_clk] [get_bd_pins StreamingFIFO_rtl_6_1/fifo/s_axis_aclk]
+create_bd_cell -type hier StreamingFIFO_rtl_6_2
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_6_2/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_6_2/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_2/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_2/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_6_2/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {4096}] [get_bd_cells /StreamingFIFO_rtl_6_2/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_6_2/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_6_2/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_2/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_2/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_2/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_2/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_2/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_2/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_2/ap_clk] [get_bd_pins StreamingFIFO_rtl_6_2/fifo/s_axis_aclk]
+create_bd_cell -type hier StreamingFIFO_rtl_6_3
+create_bd_pin -dir I -type clk /StreamingFIFO_rtl_6_3/ap_clk
+create_bd_pin -dir I -type rst /StreamingFIFO_rtl_6_3/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_3/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /StreamingFIFO_rtl_6_3/in0_V
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 /StreamingFIFO_rtl_6_3/fifo
+set_property -dict [list CONFIG.FIFO_DEPTH {2048}] [get_bd_cells /StreamingFIFO_rtl_6_3/fifo]
+set_property -dict [list CONFIG.FIFO_MEMORY_TYPE {auto}] [get_bd_cells /StreamingFIFO_rtl_6_3/fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells /StreamingFIFO_rtl_6_3/fifo]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_3/fifo/M_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_3/out_V]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_3/fifo/S_AXIS] [get_bd_intf_pins StreamingFIFO_rtl_6_3/in0_V]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_3/ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_3/fifo/s_axis_aresetn]
+connect_bd_net [get_bd_pins StreamingFIFO_rtl_6_3/ap_clk] [get_bd_pins StreamingFIFO_rtl_6_3/fifo/s_axis_aclk]
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_4_gp26akcn/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_6_4_gp26akcn/StreamingFIFO_rtl_6_4.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_6_4 StreamingFIFO_rtl_6_4
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_0:1.0 StreamingMaxPool_hls_0
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_7_e9ppo6pz/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_7_e9ppo6pz/StreamingFIFO_rtl_7.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_7 StreamingFIFO_rtl_7
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_g5koo69j/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_g5koo69j/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_g5koo69j/StreamingDataWidthConverter_rtl_2.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_2 StreamingDataWidthConverter_rtl_2
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_8_7nzcr8fp/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_8_7nzcr8fp/StreamingFIFO_rtl_8.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_8 StreamingFIFO_rtl_8
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_1_x6clf50w/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_1_x6clf50w/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_1_x6clf50w/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_1_x6clf50w/FMPadding_rtl_1.v
+create_bd_cell -type module -reference FMPadding_rtl_1 FMPadding_rtl_1
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_9_j2sfb7yz/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_9_j2sfb7yz/StreamingFIFO_rtl_9.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_9 StreamingFIFO_rtl_9
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_v3nc56c2/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_v3nc56c2/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_v3nc56c2/StreamingDataWidthConverter_rtl_3.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_3 StreamingDataWidthConverter_rtl_3
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_10_mv6frts4/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_10_mv6frts4/StreamingFIFO_rtl_10.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_10 StreamingFIFO_rtl_10
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_9pjyyphh/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_9pjyyphh/ConvolutionInputGenerator_rtl_1_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_9pjyyphh/ConvolutionInputGenerator_rtl_1_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_9pjyyphh/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_1 ConvolutionInputGenerator_rtl_1
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_11_652t37td/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_11_652t37td/StreamingFIFO_rtl_11.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_11 StreamingFIFO_rtl_11
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_4i44dlqx/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_4i44dlqx/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_4i44dlqx/StreamingDataWidthConverter_rtl_4.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_4 StreamingDataWidthConverter_rtl_4
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_12_pj90tkvc/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_12_pj90tkvc/StreamingFIFO_rtl_12.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_12 StreamingFIFO_rtl_12
+create_bd_cell -type hier MVAU_rtl_1
+create_bd_pin -dir I -type clk /MVAU_rtl_1/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_1/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_1/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_1/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_1_yikc91qt/MVAU_rtl_1_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_1 /MVAU_rtl_1/MVAU_rtl_1
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_1/MVAU_rtl_1_wstrm
+set_property -dict [list CONFIG.DEPTH {96} CONFIG.WIDTH {1024} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_1_yikc91qt/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_1/MVAU_rtl_1_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_1/MVAU_rtl_1_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_1/MVAU_rtl_1/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_1/ap_rst_n] [get_bd_pins MVAU_rtl_1/MVAU_rtl_1_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_1/ap_clk] [get_bd_pins MVAU_rtl_1/MVAU_rtl_1_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_1/ap_rst_n] [get_bd_pins MVAU_rtl_1/MVAU_rtl_1/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_1/ap_clk] [get_bd_pins MVAU_rtl_1/MVAU_rtl_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_1/in0_V] [get_bd_intf_pins MVAU_rtl_1/MVAU_rtl_1/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_1/out_V] [get_bd_intf_pins MVAU_rtl_1/MVAU_rtl_1/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_13_cyillthc/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_13_cyillthc/StreamingFIFO_rtl_13.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_13 StreamingFIFO_rtl_13
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_s3qaktjv/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_s3qaktjv/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_s3qaktjv/StreamingDataWidthConverter_rtl_5.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_5 StreamingDataWidthConverter_rtl_5
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_14_7x4gikay/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_14_7x4gikay/StreamingFIFO_rtl_14.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_14 StreamingFIFO_rtl_14
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_1
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_1 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_1_8fws2rwi/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_1 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_1_8fws2rwi/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_1 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_1_8fws2rwi/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_1 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_1_8fws2rwi/Thresholding_rtl_1_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_1_axi_wrapper Thresholding_rtl_1
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_15_s92qdqmc/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_15_s92qdqmc/StreamingFIFO_rtl_15.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_15 StreamingFIFO_rtl_15
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_1:1.0 StreamingMaxPool_hls_1
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_16_ftuxvdd8/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_16_ftuxvdd8/StreamingFIFO_rtl_16.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_16 StreamingFIFO_rtl_16
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_u632b8g4/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_u632b8g4/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_u632b8g4/StreamingDataWidthConverter_rtl_6.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_6 StreamingDataWidthConverter_rtl_6
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_17_qelt49s5/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_17_qelt49s5/StreamingFIFO_rtl_17.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_17 StreamingFIFO_rtl_17
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_2_gs_9ld05/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_2_gs_9ld05/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_2_gs_9ld05/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_2_gs_9ld05/FMPadding_rtl_2.v
+create_bd_cell -type module -reference FMPadding_rtl_2 FMPadding_rtl_2
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_18_i97dsqzz/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_18_i97dsqzz/StreamingFIFO_rtl_18.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_18 StreamingFIFO_rtl_18
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_d5tt_yw_/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_d5tt_yw_/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_d5tt_yw_/StreamingDataWidthConverter_rtl_7.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_7 StreamingDataWidthConverter_rtl_7
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_19_7qgwc8d3/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_19_7qgwc8d3/StreamingFIFO_rtl_19.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_19 StreamingFIFO_rtl_19
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_tplzjllz/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_tplzjllz/ConvolutionInputGenerator_rtl_2_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_tplzjllz/ConvolutionInputGenerator_rtl_2_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_tplzjllz/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_2 ConvolutionInputGenerator_rtl_2
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_20_egbtw_3x/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_20_egbtw_3x/StreamingFIFO_rtl_20.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_20 StreamingFIFO_rtl_20
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_os2d27rs/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_os2d27rs/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_os2d27rs/StreamingDataWidthConverter_rtl_8.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_8 StreamingDataWidthConverter_rtl_8
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_21_nacsk3xs/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_21_nacsk3xs/StreamingFIFO_rtl_21.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_21 StreamingFIFO_rtl_21
+create_bd_cell -type hier MVAU_rtl_2
+create_bd_pin -dir I -type clk /MVAU_rtl_2/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_2/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_2/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_2/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_2_x5qawsfl/MVAU_rtl_2_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_2 /MVAU_rtl_2/MVAU_rtl_2
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_2/MVAU_rtl_2_wstrm
+set_property -dict [list CONFIG.DEPTH {192} CONFIG.WIDTH {512} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_2_x5qawsfl/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_2/MVAU_rtl_2_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_2/MVAU_rtl_2_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_2/MVAU_rtl_2/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_2/ap_rst_n] [get_bd_pins MVAU_rtl_2/MVAU_rtl_2_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_2/ap_clk] [get_bd_pins MVAU_rtl_2/MVAU_rtl_2_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_2/ap_rst_n] [get_bd_pins MVAU_rtl_2/MVAU_rtl_2/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_2/ap_clk] [get_bd_pins MVAU_rtl_2/MVAU_rtl_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_2/in0_V] [get_bd_intf_pins MVAU_rtl_2/MVAU_rtl_2/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_2/out_V] [get_bd_intf_pins MVAU_rtl_2/MVAU_rtl_2/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_22__rftn79y/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_22__rftn79y/StreamingFIFO_rtl_22.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_22 StreamingFIFO_rtl_22
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_ztzg6q7t/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_ztzg6q7t/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_ztzg6q7t/StreamingDataWidthConverter_rtl_9.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_9 StreamingDataWidthConverter_rtl_9
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_23_fc99m162/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_23_fc99m162/StreamingFIFO_rtl_23.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_23 StreamingFIFO_rtl_23
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_2
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_2 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_2_ik17qaey/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_2 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_2_ik17qaey/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_2 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_2_ik17qaey/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_2 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_2_ik17qaey/Thresholding_rtl_2_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_2_axi_wrapper Thresholding_rtl_2
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_24_mo_2soll/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_24_mo_2soll/StreamingFIFO_rtl_24.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_24 StreamingFIFO_rtl_24
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_2:1.0 StreamingMaxPool_hls_2
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_25_j4plh77q/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_25_j4plh77q/StreamingFIFO_rtl_25.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_25 StreamingFIFO_rtl_25
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_qsjd1npz/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_qsjd1npz/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_qsjd1npz/StreamingDataWidthConverter_rtl_10.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_10 StreamingDataWidthConverter_rtl_10
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_26_00b4u3o7/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_26_00b4u3o7/StreamingFIFO_rtl_26.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_26 StreamingFIFO_rtl_26
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_3_j0c3cjdd/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_3_j0c3cjdd/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_3_j0c3cjdd/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_3_j0c3cjdd/FMPadding_rtl_3.v
+create_bd_cell -type module -reference FMPadding_rtl_3 FMPadding_rtl_3
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_27_bi_jwgzd/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_27_bi_jwgzd/StreamingFIFO_rtl_27.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_27 StreamingFIFO_rtl_27
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_4wax60id/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_4wax60id/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_4wax60id/StreamingDataWidthConverter_rtl_11.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_11 StreamingDataWidthConverter_rtl_11
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_28_xrbqju53/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_28_xrbqju53/StreamingFIFO_rtl_28.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_28 StreamingFIFO_rtl_28
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_kql9sqpc/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_kql9sqpc/ConvolutionInputGenerator_rtl_3_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_kql9sqpc/ConvolutionInputGenerator_rtl_3_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_kql9sqpc/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_3 ConvolutionInputGenerator_rtl_3
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_29_xztk6_kl/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_29_xztk6_kl/StreamingFIFO_rtl_29.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_29 StreamingFIFO_rtl_29
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_mqsmhhdz/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_mqsmhhdz/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_mqsmhhdz/StreamingDataWidthConverter_rtl_12.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_12 StreamingDataWidthConverter_rtl_12
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_30_mlo0s1lm/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_30_mlo0s1lm/StreamingFIFO_rtl_30.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_30 StreamingFIFO_rtl_30
+create_bd_cell -type hier MVAU_rtl_3
+create_bd_pin -dir I -type clk /MVAU_rtl_3/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_3/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_3/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_3/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_3_nny6yj5v/MVAU_rtl_3_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_3 /MVAU_rtl_3/MVAU_rtl_3
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_3/MVAU_rtl_3_wstrm
+set_property -dict [list CONFIG.DEPTH {384} CONFIG.WIDTH {256} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_3_nny6yj5v/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_3/MVAU_rtl_3_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_3/MVAU_rtl_3_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_3/MVAU_rtl_3/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_3/ap_rst_n] [get_bd_pins MVAU_rtl_3/MVAU_rtl_3_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_3/ap_clk] [get_bd_pins MVAU_rtl_3/MVAU_rtl_3_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_3/ap_rst_n] [get_bd_pins MVAU_rtl_3/MVAU_rtl_3/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_3/ap_clk] [get_bd_pins MVAU_rtl_3/MVAU_rtl_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_3/in0_V] [get_bd_intf_pins MVAU_rtl_3/MVAU_rtl_3/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_3/out_V] [get_bd_intf_pins MVAU_rtl_3/MVAU_rtl_3/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_31_p8n1aql4/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_31_p8n1aql4/StreamingFIFO_rtl_31.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_31 StreamingFIFO_rtl_31
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_e1sn9w4m/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_e1sn9w4m/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_e1sn9w4m/StreamingDataWidthConverter_rtl_13.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_13 StreamingDataWidthConverter_rtl_13
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_32_93dh4ihs/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_32_93dh4ihs/StreamingFIFO_rtl_32.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_32 StreamingFIFO_rtl_32
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_3
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_3 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_3__z_bi_k1/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_3 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_3__z_bi_k1/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_3 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_3__z_bi_k1/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_3 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_3__z_bi_k1/Thresholding_rtl_3_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_3_axi_wrapper Thresholding_rtl_3
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_33_aackb0sk/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_33_aackb0sk/StreamingFIFO_rtl_33.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_33 StreamingFIFO_rtl_33
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_3:1.0 StreamingMaxPool_hls_3
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_34_ey8hjmci/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_34_ey8hjmci/StreamingFIFO_rtl_34.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_34 StreamingFIFO_rtl_34
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_i8mhl79k/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_i8mhl79k/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_i8mhl79k/StreamingDataWidthConverter_rtl_14.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_14 StreamingDataWidthConverter_rtl_14
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_35_8umlgqit/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_35_8umlgqit/StreamingFIFO_rtl_35.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_35 StreamingFIFO_rtl_35
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_4_os68t176/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_4_os68t176/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_4_os68t176/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_4_os68t176/FMPadding_rtl_4.v
+create_bd_cell -type module -reference FMPadding_rtl_4 FMPadding_rtl_4
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_36_i06zllck/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_36_i06zllck/StreamingFIFO_rtl_36.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_36 StreamingFIFO_rtl_36
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_fd3swn61/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_fd3swn61/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_fd3swn61/StreamingDataWidthConverter_rtl_15.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_15 StreamingDataWidthConverter_rtl_15
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_37_szpno77z/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_37_szpno77z/StreamingFIFO_rtl_37.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_37 StreamingFIFO_rtl_37
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_pbor3ea7/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_pbor3ea7/ConvolutionInputGenerator_rtl_4_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_pbor3ea7/ConvolutionInputGenerator_rtl_4_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_pbor3ea7/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_4 ConvolutionInputGenerator_rtl_4
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_38_ug3ntkgi/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_38_ug3ntkgi/StreamingFIFO_rtl_38.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_38 StreamingFIFO_rtl_38
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_ttny6xuf/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_ttny6xuf/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_ttny6xuf/StreamingDataWidthConverter_rtl_16.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_16 StreamingDataWidthConverter_rtl_16
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_39_bsbfjasb/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_39_bsbfjasb/StreamingFIFO_rtl_39.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_39 StreamingFIFO_rtl_39
+create_bd_cell -type hier MVAU_rtl_4
+create_bd_pin -dir I -type clk /MVAU_rtl_4/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_4/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_4/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_4/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_4_t8c15v3y/MVAU_rtl_4_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_4 /MVAU_rtl_4/MVAU_rtl_4
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_4/MVAU_rtl_4_wstrm
+set_property -dict [list CONFIG.DEPTH {768} CONFIG.WIDTH {128} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_4_t8c15v3y/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_4/MVAU_rtl_4_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_4/MVAU_rtl_4_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_4/MVAU_rtl_4/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_4/ap_rst_n] [get_bd_pins MVAU_rtl_4/MVAU_rtl_4_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_4/ap_clk] [get_bd_pins MVAU_rtl_4/MVAU_rtl_4_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_4/ap_rst_n] [get_bd_pins MVAU_rtl_4/MVAU_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_4/ap_clk] [get_bd_pins MVAU_rtl_4/MVAU_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_4/in0_V] [get_bd_intf_pins MVAU_rtl_4/MVAU_rtl_4/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_4/out_V] [get_bd_intf_pins MVAU_rtl_4/MVAU_rtl_4/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_40_oc3nga9_/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_40_oc3nga9_/StreamingFIFO_rtl_40.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_40 StreamingFIFO_rtl_40
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_3b_hez21/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_3b_hez21/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_3b_hez21/StreamingDataWidthConverter_rtl_17.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_17 StreamingDataWidthConverter_rtl_17
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_41_f8iazt7i/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_41_f8iazt7i/StreamingFIFO_rtl_41.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_41 StreamingFIFO_rtl_41
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_4
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_4 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_4_tb15wgd7/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_4 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_4_tb15wgd7/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_4 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_4_tb15wgd7/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_4 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_4_tb15wgd7/Thresholding_rtl_4_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_4_axi_wrapper Thresholding_rtl_4
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_42_m8o7d605/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_42_m8o7d605/StreamingFIFO_rtl_42.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_42 StreamingFIFO_rtl_42
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_4:1.0 StreamingMaxPool_hls_4
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_43_kyr8rqgz/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_43_kyr8rqgz/StreamingFIFO_rtl_43.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_43 StreamingFIFO_rtl_43
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_4xxxoy8o/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_4xxxoy8o/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_4xxxoy8o/StreamingDataWidthConverter_rtl_18.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_18 StreamingDataWidthConverter_rtl_18
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_44_15qvt7yk/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_44_15qvt7yk/StreamingFIFO_rtl_44.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_44 StreamingFIFO_rtl_44
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_5_0a8n0fk1/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_5_0a8n0fk1/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_5_0a8n0fk1/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_5_0a8n0fk1/FMPadding_rtl_5.v
+create_bd_cell -type module -reference FMPadding_rtl_5 FMPadding_rtl_5
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_45_nn5xwqw9/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_45_nn5xwqw9/StreamingFIFO_rtl_45.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_45 StreamingFIFO_rtl_45
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_19_11xryjp7/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_19_11xryjp7/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_19_11xryjp7/StreamingDataWidthConverter_rtl_19.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_19 StreamingDataWidthConverter_rtl_19
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_46_k1ufgbgm/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_46_k1ufgbgm/StreamingFIFO_rtl_46.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_46 StreamingFIFO_rtl_46
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_8531culb/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_8531culb/ConvolutionInputGenerator_rtl_5_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_8531culb/ConvolutionInputGenerator_rtl_5_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_8531culb/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_5 ConvolutionInputGenerator_rtl_5
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_47_hfk2h7hy/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_47_hfk2h7hy/StreamingFIFO_rtl_47.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_47 StreamingFIFO_rtl_47
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_20_ic4vpoyr/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_20_ic4vpoyr/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_20_ic4vpoyr/StreamingDataWidthConverter_rtl_20.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_20 StreamingDataWidthConverter_rtl_20
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_48_zia71peb/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_48_zia71peb/StreamingFIFO_rtl_48.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_48 StreamingFIFO_rtl_48
+create_bd_cell -type hier MVAU_rtl_5
+create_bd_pin -dir I -type clk /MVAU_rtl_5/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_5/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_5/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_5/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_5_zx6vfm_x/MVAU_rtl_5_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_5 /MVAU_rtl_5/MVAU_rtl_5
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_5/MVAU_rtl_5_wstrm
+set_property -dict [list CONFIG.DEPTH {2048} CONFIG.WIDTH {48} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_5_zx6vfm_x/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_5/MVAU_rtl_5_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_5/MVAU_rtl_5_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_5/MVAU_rtl_5/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_5/ap_rst_n] [get_bd_pins MVAU_rtl_5/MVAU_rtl_5_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_5/ap_clk] [get_bd_pins MVAU_rtl_5/MVAU_rtl_5_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_5/ap_rst_n] [get_bd_pins MVAU_rtl_5/MVAU_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_5/ap_clk] [get_bd_pins MVAU_rtl_5/MVAU_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_5/in0_V] [get_bd_intf_pins MVAU_rtl_5/MVAU_rtl_5/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_5/out_V] [get_bd_intf_pins MVAU_rtl_5/MVAU_rtl_5/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_49_fjliis_b/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_49_fjliis_b/StreamingFIFO_rtl_49.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_49 StreamingFIFO_rtl_49
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_5
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_5 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_5_ylhlrpr1/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_5 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_5_ylhlrpr1/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_5 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_5_ylhlrpr1/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_5 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_5_ylhlrpr1/Thresholding_rtl_5_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_5_axi_wrapper Thresholding_rtl_5
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_50_qpdgwyw9/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_50_qpdgwyw9/StreamingFIFO_rtl_50.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_50 StreamingFIFO_rtl_50
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_5:1.0 StreamingMaxPool_hls_5
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_51_dd1c17o5/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_51_dd1c17o5/StreamingFIFO_rtl_51.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_51 StreamingFIFO_rtl_51
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_21_shu6d112/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_21_shu6d112/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_21_shu6d112/StreamingDataWidthConverter_rtl_21.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_21 StreamingDataWidthConverter_rtl_21
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_52_3jbdn9gw/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_52_3jbdn9gw/StreamingFIFO_rtl_52.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_52 StreamingFIFO_rtl_52
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_6_pb_cnki6/fmpadding_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_6_pb_cnki6/fmpadding.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_6_pb_cnki6/axi2we.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_FMPadding_rtl_6_pb_cnki6/FMPadding_rtl_6.v
+create_bd_cell -type module -reference FMPadding_rtl_6 FMPadding_rtl_6
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_53_usfh6dyz/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_53_usfh6dyz/StreamingFIFO_rtl_53.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_53 StreamingFIFO_rtl_53
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_22_4asvgxno/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_22_4asvgxno/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_22_4asvgxno/StreamingDataWidthConverter_rtl_22.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_22 StreamingDataWidthConverter_rtl_22
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_54_3srhdl_9/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_54_3srhdl_9/StreamingFIFO_rtl_54.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_54 StreamingFIFO_rtl_54
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_db73igaf/swg_pkg.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_db73igaf/ConvolutionInputGenerator_rtl_6_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_db73igaf/ConvolutionInputGenerator_rtl_6_impl.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_db73igaf/swg_common.sv
+create_bd_cell -type module -reference ConvolutionInputGenerator_rtl_6 ConvolutionInputGenerator_rtl_6
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_55_vc05z4n4/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_55_vc05z4n4/StreamingFIFO_rtl_55.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_55 StreamingFIFO_rtl_55
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_23_qvq55kje/dwc_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_23_qvq55kje/dwc.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingDataWidthConverter_rtl_23_qvq55kje/StreamingDataWidthConverter_rtl_23.v
+create_bd_cell -type module -reference StreamingDataWidthConverter_rtl_23 StreamingDataWidthConverter_rtl_23
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_56_v332ppco/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_56_v332ppco/StreamingFIFO_rtl_56.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_56 StreamingFIFO_rtl_56
+create_bd_cell -type hier MVAU_rtl_6
+create_bd_pin -dir I -type clk /MVAU_rtl_6/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_6/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_6/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_6/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_6_11xsipv7/MVAU_rtl_6_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_6 /MVAU_rtl_6/MVAU_rtl_6
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_6/MVAU_rtl_6_wstrm
+set_property -dict [list CONFIG.DEPTH {4096} CONFIG.WIDTH {24} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_6_11xsipv7/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_6/MVAU_rtl_6_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_6/MVAU_rtl_6_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_6/MVAU_rtl_6/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_6/ap_rst_n] [get_bd_pins MVAU_rtl_6/MVAU_rtl_6_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_6/ap_clk] [get_bd_pins MVAU_rtl_6/MVAU_rtl_6_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_6/ap_rst_n] [get_bd_pins MVAU_rtl_6/MVAU_rtl_6/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_6/ap_clk] [get_bd_pins MVAU_rtl_6/MVAU_rtl_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_6/in0_V] [get_bd_intf_pins MVAU_rtl_6/MVAU_rtl_6/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_6/out_V] [get_bd_intf_pins MVAU_rtl_6/MVAU_rtl_6/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_57_frgc09e_/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_57_frgc09e_/StreamingFIFO_rtl_57.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_57 StreamingFIFO_rtl_57
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_6
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_6 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_6_p42bv8qr/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_6 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_6_p42bv8qr/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_6 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_6_p42bv8qr/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_6 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_6_p42bv8qr/Thresholding_rtl_6_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_6_axi_wrapper Thresholding_rtl_6
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_58_vkyktfrk/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_58_vkyktfrk/StreamingFIFO_rtl_58.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_58 StreamingFIFO_rtl_58
+create_bd_cell -type ip -vlnv xilinx.com:hls:StreamingMaxPool_hls_6:1.0 StreamingMaxPool_hls_6
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_59_lgs_s9ll/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_59_lgs_s9ll/StreamingFIFO_rtl_59.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_59 StreamingFIFO_rtl_59
+create_bd_cell -type hier MVAU_rtl_7
+create_bd_pin -dir I -type clk /MVAU_rtl_7/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_7/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_7/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_7/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_7_2vbtg0gd/MVAU_rtl_7_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_7 /MVAU_rtl_7/MVAU_rtl_7
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_7/MVAU_rtl_7_wstrm
+set_property -dict [list CONFIG.DEPTH {65536} CONFIG.WIDTH {8} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_7_2vbtg0gd/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_7/MVAU_rtl_7_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_7/MVAU_rtl_7_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_7/MVAU_rtl_7/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_7/ap_rst_n] [get_bd_pins MVAU_rtl_7/MVAU_rtl_7_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_7/ap_clk] [get_bd_pins MVAU_rtl_7/MVAU_rtl_7_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_7/ap_rst_n] [get_bd_pins MVAU_rtl_7/MVAU_rtl_7/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_7/ap_clk] [get_bd_pins MVAU_rtl_7/MVAU_rtl_7/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_7/in0_V] [get_bd_intf_pins MVAU_rtl_7/MVAU_rtl_7/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_7/out_V] [get_bd_intf_pins MVAU_rtl_7/MVAU_rtl_7/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_60_6rr726qe/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_60_6rr726qe/StreamingFIFO_rtl_60.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_60 StreamingFIFO_rtl_60
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_7
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_7 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_7_ld5f079y/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_7 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_7_ld5f079y/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_7 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_7_ld5f079y/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_7 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_7_ld5f079y/Thresholding_rtl_7_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_7_axi_wrapper Thresholding_rtl_7
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_61_2e4u4woh/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_61_2e4u4woh/StreamingFIFO_rtl_61.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_61 StreamingFIFO_rtl_61
+create_bd_cell -type hier MVAU_rtl_8
+create_bd_pin -dir I -type clk /MVAU_rtl_8/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_8/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_8/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_8/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_8_bb573qta/MVAU_rtl_8_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_8 /MVAU_rtl_8/MVAU_rtl_8
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_8/MVAU_rtl_8_wstrm
+set_property -dict [list CONFIG.DEPTH {16384} CONFIG.WIDTH {8} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_8_bb573qta/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_8/MVAU_rtl_8_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_8/MVAU_rtl_8_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_8/MVAU_rtl_8/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_8/ap_rst_n] [get_bd_pins MVAU_rtl_8/MVAU_rtl_8_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_8/ap_clk] [get_bd_pins MVAU_rtl_8/MVAU_rtl_8_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_8/ap_rst_n] [get_bd_pins MVAU_rtl_8/MVAU_rtl_8/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_8/ap_clk] [get_bd_pins MVAU_rtl_8/MVAU_rtl_8/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_8/in0_V] [get_bd_intf_pins MVAU_rtl_8/MVAU_rtl_8/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_8/out_V] [get_bd_intf_pins MVAU_rtl_8/MVAU_rtl_8/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_62_7tla7c1i/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_62_7tla7c1i/StreamingFIFO_rtl_62.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_62 StreamingFIFO_rtl_62
+file mkdir ./ip/verilog/rtl_ops/Thresholding_rtl_8
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_8 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_8_1npy5ulp/axilite_if.v
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_8 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_8_1npy5ulp/thresholding.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_8 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_8_1npy5ulp/thresholding_axi.sv
+add_files -copy_to ./ip/verilog/rtl_ops/Thresholding_rtl_8 -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_Thresholding_rtl_8_1npy5ulp/Thresholding_rtl_8_axi_wrapper.v
+create_bd_cell -type module -reference Thresholding_rtl_8_axi_wrapper Thresholding_rtl_8
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_63_qtbxz2xe/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_63_qtbxz2xe/StreamingFIFO_rtl_63.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_63 StreamingFIFO_rtl_63
+create_bd_cell -type hier MVAU_rtl_9
+create_bd_pin -dir I -type clk /MVAU_rtl_9/ap_clk
+create_bd_pin -dir I -type rst /MVAU_rtl_9/ap_rst_n
+create_bd_intf_pin -mode Master -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_9/out_V
+create_bd_intf_pin -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 /MVAU_rtl_9/in0_V
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_9_y51998df/MVAU_rtl_9_wrapper.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_axi.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/replay_buffer.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_4sx4u.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv
+create_bd_cell -type hier -reference MVAU_rtl_9 /MVAU_rtl_9/MVAU_rtl_9
+create_bd_cell -type ip -vlnv amd.com:finn:memstream:1.0 /MVAU_rtl_9/MVAU_rtl_9_wstrm
+set_property -dict [list CONFIG.DEPTH {1920} CONFIG.WIDTH {8} CONFIG.INIT_FILE {/home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_MVAU_rtl_9_y51998df/memblock.dat} CONFIG.RAM_STYLE {auto} ] [get_bd_cells /MVAU_rtl_9/MVAU_rtl_9_wstrm]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_9/MVAU_rtl_9_wstrm/m_axis_0] [get_bd_intf_pins MVAU_rtl_9/MVAU_rtl_9/weights_V]
+connect_bd_net [get_bd_pins MVAU_rtl_9/ap_rst_n] [get_bd_pins MVAU_rtl_9/MVAU_rtl_9_wstrm/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_9/ap_clk] [get_bd_pins MVAU_rtl_9/MVAU_rtl_9_wstrm/ap_clk]
+connect_bd_net [get_bd_pins MVAU_rtl_9/ap_rst_n] [get_bd_pins MVAU_rtl_9/MVAU_rtl_9/ap_rst_n]
+connect_bd_net [get_bd_pins MVAU_rtl_9/ap_clk] [get_bd_pins MVAU_rtl_9/MVAU_rtl_9/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_9/in0_V] [get_bd_intf_pins MVAU_rtl_9/MVAU_rtl_9/in0_V]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_9/out_V] [get_bd_intf_pins MVAU_rtl_9/MVAU_rtl_9/out_V]
+save_bd_design
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_64_i2a9hxx_/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_64_i2a9hxx_/StreamingFIFO_rtl_64.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_64 StreamingFIFO_rtl_64
+create_bd_cell -type ip -vlnv xilinx.com:hls:ChannelwiseOp_hls_0:1.0 ChannelwiseOp_hls_0
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_65_zl31898m/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_65_zl31898m/StreamingFIFO_rtl_65.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_65 StreamingFIFO_rtl_65
+create_bd_cell -type ip -vlnv xilinx.com:hls:LabelSelect_hls_0:1.0 LabelSelect_hls_0
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_66_5gowt44u/Q_srl.v
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/code_gen_ipgen_StreamingFIFO_rtl_66_5gowt44u/StreamingFIFO_rtl_66.v
+create_bd_cell -type module -reference StreamingFIFO_rtl_66 StreamingFIFO_rtl_66
+make_bd_pins_external [get_bd_pins StreamingFIFO_rtl_0/ap_clk]
+set_property name ap_clk [get_bd_ports ap_clk_0]
+make_bd_pins_external [get_bd_pins StreamingFIFO_rtl_0/ap_rst_n]
+set_property name ap_rst_n [get_bd_ports ap_rst_n_0]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_0/out_V] [get_bd_intf_pins FMPadding_rtl_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_1_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_1_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_1_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_1_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_1_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_1_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_1_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_1_1/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_2_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_2_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_2_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_2_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_2_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_2_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_2_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_2_1/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_3_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_3_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_3_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_3_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_3_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_3_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_3_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_3_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_3_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_3_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_3_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_3_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_3_3/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_4/out_V] [get_bd_intf_pins MVAU_rtl_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_5/out_V] [get_bd_intf_pins Thresholding_rtl_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_6_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_6_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_6_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_6_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_6_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_6_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_6_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_6_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_6_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_6_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_6_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_6_4/out_V] [get_bd_intf_pins StreamingMaxPool_hls_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_7/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_7/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_7/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_7/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_8/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_8/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_8/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_8/out_V] [get_bd_intf_pins FMPadding_rtl_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_9/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_9/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_9/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_9/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_10/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_10/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_10/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_10/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_11/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_11/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_11/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_11/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_12/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_12/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_4/out_V] [get_bd_intf_pins StreamingFIFO_rtl_12/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_12/out_V] [get_bd_intf_pins MVAU_rtl_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_13/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_13/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_13/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_13/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_14/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_14/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_5/out_V] [get_bd_intf_pins StreamingFIFO_rtl_14/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_14/out_V] [get_bd_intf_pins Thresholding_rtl_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_15/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_15/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_15/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_1/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_1/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_15/out_V] [get_bd_intf_pins StreamingMaxPool_hls_1/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_16/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_16/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_1/out_V] [get_bd_intf_pins StreamingFIFO_rtl_16/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_6/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_16/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_6/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_17/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_17/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_6/out_V] [get_bd_intf_pins StreamingFIFO_rtl_17/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_17/out_V] [get_bd_intf_pins FMPadding_rtl_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_18/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_18/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_18/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_7/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_7/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_18/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_7/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_19/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_19/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_7/out_V] [get_bd_intf_pins StreamingFIFO_rtl_19/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_19/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_20/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_20/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_20/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_8/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_8/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_20/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_8/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_21/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_21/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_8/out_V] [get_bd_intf_pins StreamingFIFO_rtl_21/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_21/out_V] [get_bd_intf_pins MVAU_rtl_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_22/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_22/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_22/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_9/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_9/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_22/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_9/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_23/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_23/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_9/out_V] [get_bd_intf_pins StreamingFIFO_rtl_23/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_23/out_V] [get_bd_intf_pins Thresholding_rtl_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_24/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_24/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_24/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_2/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_2/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_24/out_V] [get_bd_intf_pins StreamingMaxPool_hls_2/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_25/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_25/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_2/out_V] [get_bd_intf_pins StreamingFIFO_rtl_25/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_10/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_10/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_25/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_10/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_26/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_26/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_10/out_V] [get_bd_intf_pins StreamingFIFO_rtl_26/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_26/out_V] [get_bd_intf_pins FMPadding_rtl_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_27/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_27/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_27/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_11/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_11/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_27/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_11/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_28/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_28/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_11/out_V] [get_bd_intf_pins StreamingFIFO_rtl_28/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_28/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_29/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_29/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_29/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_12/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_12/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_29/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_12/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_30/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_30/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_12/out_V] [get_bd_intf_pins StreamingFIFO_rtl_30/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_30/out_V] [get_bd_intf_pins MVAU_rtl_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_31/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_31/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_31/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_13/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_13/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_31/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_13/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_32/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_32/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_13/out_V] [get_bd_intf_pins StreamingFIFO_rtl_32/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_32/out_V] [get_bd_intf_pins Thresholding_rtl_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_33/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_33/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_33/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_3/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_3/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_33/out_V] [get_bd_intf_pins StreamingMaxPool_hls_3/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_34/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_34/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_3/out_V] [get_bd_intf_pins StreamingFIFO_rtl_34/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_14/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_14/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_34/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_14/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_35/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_35/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_14/out_V] [get_bd_intf_pins StreamingFIFO_rtl_35/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_35/out_V] [get_bd_intf_pins FMPadding_rtl_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_36/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_36/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_4/out_V] [get_bd_intf_pins StreamingFIFO_rtl_36/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_15/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_15/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_36/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_15/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_37/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_37/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_15/out_V] [get_bd_intf_pins StreamingFIFO_rtl_37/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_37/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_38/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_38/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_4/out_V] [get_bd_intf_pins StreamingFIFO_rtl_38/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_16/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_16/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_38/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_16/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_39/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_39/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_16/out_V] [get_bd_intf_pins StreamingFIFO_rtl_39/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_39/out_V] [get_bd_intf_pins MVAU_rtl_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_40/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_40/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_4/out_V] [get_bd_intf_pins StreamingFIFO_rtl_40/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_17/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_17/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_40/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_17/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_41/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_41/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_17/out_V] [get_bd_intf_pins StreamingFIFO_rtl_41/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_41/out_V] [get_bd_intf_pins Thresholding_rtl_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_42/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_42/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_4/out_V] [get_bd_intf_pins StreamingFIFO_rtl_42/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_4/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_4/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_42/out_V] [get_bd_intf_pins StreamingMaxPool_hls_4/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_43/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_43/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_4/out_V] [get_bd_intf_pins StreamingFIFO_rtl_43/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_18/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_18/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_43/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_18/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_44/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_44/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_18/out_V] [get_bd_intf_pins StreamingFIFO_rtl_44/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_44/out_V] [get_bd_intf_pins FMPadding_rtl_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_45/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_45/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_5/out_V] [get_bd_intf_pins StreamingFIFO_rtl_45/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_19/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_19/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_45/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_19/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_46/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_46/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_19/out_V] [get_bd_intf_pins StreamingFIFO_rtl_46/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_46/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_47/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_47/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_5/out_V] [get_bd_intf_pins StreamingFIFO_rtl_47/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_20/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_20/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_47/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_20/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_48/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_48/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_20/out_V] [get_bd_intf_pins StreamingFIFO_rtl_48/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_48/out_V] [get_bd_intf_pins MVAU_rtl_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_49/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_49/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_5/out_V] [get_bd_intf_pins StreamingFIFO_rtl_49/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_49/out_V] [get_bd_intf_pins Thresholding_rtl_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_50/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_50/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_5/out_V] [get_bd_intf_pins StreamingFIFO_rtl_50/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_5/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_5/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_50/out_V] [get_bd_intf_pins StreamingMaxPool_hls_5/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_51/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_51/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_5/out_V] [get_bd_intf_pins StreamingFIFO_rtl_51/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_21/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_21/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_51/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_21/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_52/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_52/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_21/out_V] [get_bd_intf_pins StreamingFIFO_rtl_52/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins FMPadding_rtl_6/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins FMPadding_rtl_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_52/out_V] [get_bd_intf_pins FMPadding_rtl_6/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_53/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_53/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins FMPadding_rtl_6/out_V] [get_bd_intf_pins StreamingFIFO_rtl_53/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_22/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_22/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_53/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_22/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_54/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_54/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_22/out_V] [get_bd_intf_pins StreamingFIFO_rtl_54/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ConvolutionInputGenerator_rtl_6/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ConvolutionInputGenerator_rtl_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_54/out_V] [get_bd_intf_pins ConvolutionInputGenerator_rtl_6/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_55/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_55/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ConvolutionInputGenerator_rtl_6/out_V] [get_bd_intf_pins StreamingFIFO_rtl_55/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingDataWidthConverter_rtl_23/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingDataWidthConverter_rtl_23/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_55/out_V] [get_bd_intf_pins StreamingDataWidthConverter_rtl_23/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_56/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_56/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingDataWidthConverter_rtl_23/out_V] [get_bd_intf_pins StreamingFIFO_rtl_56/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_6/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_56/out_V] [get_bd_intf_pins MVAU_rtl_6/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_57/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_57/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_6/out_V] [get_bd_intf_pins StreamingFIFO_rtl_57/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_6/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_57/out_V] [get_bd_intf_pins Thresholding_rtl_6/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_58/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_58/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_6/out_V] [get_bd_intf_pins StreamingFIFO_rtl_58/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingMaxPool_hls_6/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingMaxPool_hls_6/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_58/out_V] [get_bd_intf_pins StreamingMaxPool_hls_6/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_59/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_59/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingMaxPool_hls_6/out_V] [get_bd_intf_pins StreamingFIFO_rtl_59/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_7/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_7/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_59/out_V] [get_bd_intf_pins MVAU_rtl_7/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_60/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_60/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_7/out_V] [get_bd_intf_pins StreamingFIFO_rtl_60/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_7/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_7/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_60/out_V] [get_bd_intf_pins Thresholding_rtl_7/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_61/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_61/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_7/out_V] [get_bd_intf_pins StreamingFIFO_rtl_61/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_8/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_8/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_61/out_V] [get_bd_intf_pins MVAU_rtl_8/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_62/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_62/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_8/out_V] [get_bd_intf_pins StreamingFIFO_rtl_62/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins Thresholding_rtl_8/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins Thresholding_rtl_8/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_62/out_V] [get_bd_intf_pins Thresholding_rtl_8/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_63/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_63/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins Thresholding_rtl_8/out_V] [get_bd_intf_pins StreamingFIFO_rtl_63/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins MVAU_rtl_9/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins MVAU_rtl_9/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_63/out_V] [get_bd_intf_pins MVAU_rtl_9/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_64/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_64/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins MVAU_rtl_9/out_V] [get_bd_intf_pins StreamingFIFO_rtl_64/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins ChannelwiseOp_hls_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins ChannelwiseOp_hls_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_64/out_V] [get_bd_intf_pins ChannelwiseOp_hls_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_65/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_65/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins ChannelwiseOp_hls_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_65/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins LabelSelect_hls_0/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins LabelSelect_hls_0/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins StreamingFIFO_rtl_65/out_V] [get_bd_intf_pins LabelSelect_hls_0/in0_V]
+connect_bd_net [get_bd_ports ap_rst_n] [get_bd_pins StreamingFIFO_rtl_66/ap_rst_n]
+connect_bd_net [get_bd_ports ap_clk] [get_bd_pins StreamingFIFO_rtl_66/ap_clk]
+connect_bd_intf_net [get_bd_intf_pins LabelSelect_hls_0/out_V] [get_bd_intf_pins StreamingFIFO_rtl_66/in0_V]
+make_bd_intf_pins_external [get_bd_intf_pins StreamingFIFO_rtl_0/in0_V]
+set_property name s_axis_0 [get_bd_intf_ports in0_V_0]
+make_bd_intf_pins_external [get_bd_intf_pins StreamingFIFO_rtl_66/out_V]
+set_property name m_axis_0 [get_bd_intf_ports out_V_0]
+set_property CONFIG.FREQ_HZ 200000000 [get_bd_ports /ap_clk]
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_0fptrgvk/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd] -top
+add_files -norecurse /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_0fptrgvk/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/hdl/finn_design_wrapper.v
+set_property top finn_design_wrapper [current_fileset]
+ipx::package_project -root_dir /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_0fptrgvk/ip -vendor xilinx_finn -library finn -taxonomy /UserIP -module finn_design -import_files
+set_property ipi_drc {ignore_freq_hz true} [ipx::current_core]
+ipx::remove_segment -quiet m_axi_gmem0:APERTURE_0 [ipx::get_address_spaces m_axi_gmem0 -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::find_open_core xilinx_finn:finn:finn_design:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx_finn:finn:finn_design:1.0]
+set_property value_resolve_type user [ipx::get_bus_parameters -of [ipx::get_bus_interfaces -of [ipx::current_core ]]]
+
+set core [ipx::current_core]
+
+# Add rudimentary driver
+file copy -force data ip/
+set file_group [ipx::add_file_group -type software_driver {} $core]
+set_property type mdd       [ipx::add_file data/finn_design.mdd $file_group]
+set_property type tclSource [ipx::add_file data/finn_design.tcl $file_group]
+
+# Remove all XCI references to subcores
+set impl_files [ipx::get_file_groups xilinx_implementation -of $core]
+foreach xci [ipx::get_files -of $impl_files {*.xci}] {
+    ipx::remove_file [get_property NAME $xci] $impl_files
+}
+
+# Construct a single flat memory map for each AXI-lite interface port
+foreach port [get_bd_intf_ports -filter {CONFIG.PROTOCOL==AXI4LITE}] {
+    set pin $port
+    set awidth ""
+    while { $awidth == "" } {
+        set pins [get_bd_intf_pins -of [get_bd_intf_nets -boundary_type lower -of $pin]]
+        set kill [lsearch $pins $pin]
+        if { $kill >= 0 } { set pins [lreplace $pins $kill $kill] }
+        if { [llength $pins] != 1 } { break }
+        set pin [lindex $pins 0]
+        set awidth [get_property CONFIG.ADDR_WIDTH $pin]
+    }
+    if { $awidth == "" } {
+       puts "CRITICAL WARNING: Unable to construct address map for $port."
+    } {
+       set range [expr 2**$awidth]
+       set range [expr $range < 4096 ? 4096 : $range]
+       puts "INFO: Building address map for $port: 0+:$range"
+       set name [get_property NAME $port]
+       set addr_block [ipx::add_address_block Reg0 [ipx::add_memory_map $name $core]]
+       set_property range $range $addr_block
+       set_property slave_memory_map_ref $name [ipx::get_bus_interfaces $name -of $core]
+    }
+}
+
+# Finalize and Save
+ipx::update_checksums $core
+ipx::save_core $core
+
+# Remove stale subcore references from component.xml
+file rename -force ip/component.xml ip/component.bak
+set ifile [open ip/component.bak r]
+set ofile [open ip/component.xml w]
+set buf [list]
+set kill 0
+while { [eof $ifile] != 1 } {
+    gets $ifile line
+    if { [string match {*<spirit:fileSet>*} $line] == 1 } {
+        foreach l $buf { puts $ofile $l }
+        set buf [list $line]
+    } elseif { [llength $buf] > 0 } {
+        lappend buf $line
+
+        if { [string match {*</spirit:fileSet>*} $line] == 1 } {
+            if { $kill == 0 } { foreach l $buf { puts $ofile $l } }
+            set buf [list]
+            set kill 0
+        } elseif { [string match {*<xilinx:subCoreRef>*} $line] == 1 } {
+            set kill 1
+        }
+    } else {
+        puts $ofile $line
+    }
+}
+close $ifile
+close $ofile
+
+set all_v_files [get_files -filter {USED_IN_SYNTHESIS == 1 && (FILE_TYPE == Verilog || FILE_TYPE == SystemVerilog || FILE_TYPE =="Verilog Header")}]
+set fp [open /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_0fptrgvk/all_verilog_srcs.txt w]
+foreach vf $all_v_files {puts $fp $vf}
+close $fp

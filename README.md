@@ -228,7 +228,7 @@ ACC >=6dB:  0.5939941069525422
 ACC ==30dB:  0.6894865525672371
 ```
 ### Confusion Matrix of 4 bit Model Validation on FPGA (Over All SNR)
-![CM_4bit_model_FPGA](runs/train_on_ray_ppm20/test_on_ray_ppm20/plots/4bit_fpga/CM_[OVERALL].jpeg)
+![CM_4bit_model_FPGA](example_run/train_on_ray_ppm20/test_on_ray_ppm20/plots/4bit_fpga/CM_[OVERALL].jpeg)
 
 ### Accuracy over SNR of All Models
-![ACC_OVER_SNR](runs/train_on_ray_ppm20/test_on_ray_ppm20/plots/acc_over_snr.jpeg)
+![ACC_OVER_SNR](example_run/train_on_ray_ppm20/test_on_ray_ppm20/plots/acc_over_snr.jpeg)

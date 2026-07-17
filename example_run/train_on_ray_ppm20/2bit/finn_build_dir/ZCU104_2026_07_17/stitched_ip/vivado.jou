@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Jul 17 19:26:53 2026
+# Process ID: 13941
+# Current directory: /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_1j5ru_id
+# Command line: vivado -mode batch -source make_project.tcl
+# Log file: /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_1j5ru_id/vivado.log
+# Journal file: /home/phu/repos/RadioShiftML/RadioShift-ML/src/finn_custom_build/tmp/vivado_stitch_proj_1j5ru_id/vivado.jou
+# Running On        :finn_dev_phu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.1 LTS
+# Processor Detail  :Intel(R) Core(TM) i9-14900KF
+# CPU Frequency     :5162.142 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :134878 MB
+# Swap memory       :32212 MB
+# Total Virtual     :167090 MB
+# Available Virtual :142526 MB
+#-----------------------------------------------------------
+source make_project.tcl

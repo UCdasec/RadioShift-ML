@@ -1,0 +1,74 @@
+{
+  "StreamingMaxPool_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "106",
+    "LUT": "515",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "StreamingMaxPool_hls_1": {
+    "BRAM_18K": "0",
+    "FF": "105",
+    "LUT": "513",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "StreamingMaxPool_hls_2": {
+    "BRAM_18K": "0",
+    "FF": "104",
+    "LUT": "511",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "StreamingMaxPool_hls_3": {
+    "BRAM_18K": "0",
+    "FF": "103",
+    "LUT": "509",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "StreamingMaxPool_hls_4": {
+    "BRAM_18K": "0",
+    "FF": "102",
+    "LUT": "507",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "StreamingMaxPool_hls_5": {
+    "BRAM_18K": "0",
+    "FF": "101",
+    "LUT": "505",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "StreamingMaxPool_hls_6": {
+    "BRAM_18K": "0",
+    "FF": "100",
+    "LUT": "504",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "ChannelwiseOp_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "97",
+    "LUT": "256",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "LabelSelect_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "50",
+    "LUT": "207",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  }
+}
