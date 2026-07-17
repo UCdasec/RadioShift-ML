@@ -3,6 +3,12 @@ This repository shows an example pipeline for:
 - Training quantized NN using Pytorch and Brevitas
 - Using FINN to generate the hardware implementation of that NN
 - Implement the NN on an FPGA and run validation
+
+## Reference
+We use the source code and documents of this repository to train and test neural networks on FPGAs, which are used in the following paper.  
+
+Anagh Mishra, Phu Le, Ryan Evans, Nirnimesh Ghose, Boyang Wang, "RadioShift: A Framework Measuing the Robustness of Lightweight Neural Networks over RF Signals," the IEEE National Aerospace and Electronics Conference (IEEE NAECON 2026), Cincinnati, OH, August 9-12, 2026, USA.
+
 ## 1. FINN Setup (run once)
 ```bash
 cd finn && bash ./run-docker.sh
