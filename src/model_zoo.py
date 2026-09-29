@@ -53,6 +53,9 @@ class DWConv1d(nn.Module):
     def forward(self, x):
         return self.act(self.bn(self.conv(x)))
 
+# Class name is a bit misleading since we are not using grouped convolution
+# I could not get FINN to work with Brevitas grouped convolutions, so groups=1 for now
+# The Regular DSNetmodels use grouped convolutions (groups=ch) above
 class QDWConv1d(nn.Module):
     """Quantized depthwise conv + BN + QuantReLU"""
     def __init__(self, ch: int, k: int, s: int = 1, p: int | None = None,
